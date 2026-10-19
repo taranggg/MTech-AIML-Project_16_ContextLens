@@ -75,7 +75,7 @@ function DocumentChunks({ documents }: { documents: DocumentInfo[] }) {
         <Select
           value={docId}
           aria-label="Document"
-          className="mb-3 w-full"
+          wrapperClassName="mb-3 w-full"
           onChange={(e) => {
             setDocId(e.target.value);
             setOffset(0);

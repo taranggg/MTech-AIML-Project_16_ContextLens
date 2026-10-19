@@ -141,6 +141,10 @@ def build():
         "Documents: IIT Roorkee PG + PhD admission brochures (62 pages)",
         "Conditions compared: No-RAG, Top-1, Top-3, Top-5, Top-10, Gold-page oracle",
     ], size=16)
+    add_text(s, Inches(0.8), Inches(6.5), Inches(11.7), Inches(0.4),
+              "Team: Tarang Kumar, Inderneel Saunik", size=15, color=MUTED)
+    add_text(s, Inches(0.8), Inches(6.9), Inches(11.7), Inches(0.4),
+              "Date: [Presentation Date]", size=15, color=MUTED)
     footer(s, 1)
 
     # Slide 2 — Problem

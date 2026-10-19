@@ -443,7 +443,7 @@ function QuestionBrowser({ runId, conditions }: { runId: string; conditions: str
 
   return (
     <div>
-      <Select value={qid} onChange={(e) => setQid(e.target.value)} aria-label="Benchmark question" className="w-full">
+      <Select value={qid} onChange={(e) => setQid(e.target.value)} aria-label="Benchmark question" wrapperClassName="w-full">
         {questions.map((q) => (
           <option key={q.question_id} value={q.question_id}>
             {q.question_id} · {q.question}
